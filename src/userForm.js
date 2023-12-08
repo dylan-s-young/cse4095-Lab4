@@ -18,7 +18,7 @@ const UserForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // You can perform further actions with the form data here
-        const task = fetch(`http://127.0.0.1:5001/insert/${formData.name}}/${formData.id}/${formData.address}`)
+        const task = fetch(`http://127.0.0.1:5001/insert/${formData.name}/${formData.id}/${formData.address}`)
         console.log('Form Data:', formData);
     };
 
